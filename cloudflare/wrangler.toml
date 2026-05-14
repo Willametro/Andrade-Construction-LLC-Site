@@ -1,0 +1,5 @@
+name = "andrade-visitor-logger"
+main = "worker.js"
+compatibility_date = "2026-05-01"
+
+# DISCORD_WEBHOOK is a secret. Set with: wrangler secret put DISCORD_WEBHOOK
