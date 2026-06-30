@@ -201,12 +201,15 @@
         filterBtns.forEach(b => b.setAttribute('aria-pressed', 'false'));
         btn.setAttribute('aria-pressed', 'true');
 
-        document.querySelectorAll('.gallery__item').forEach(item => {
-          if (cat === 'all' || item.dataset.cat === cat) {
-            item.classList.remove('is-hidden');
-          } else {
-            item.classList.add('is-hidden');
-          }
+        // Filter individual items (legacy masonry)
+        document.querySelectorAll('.gallery__item[data-cat]').forEach(item => {
+          if (cat === 'all' || item.dataset.cat === cat) item.classList.remove('is-hidden');
+          else item.classList.add('is-hidden');
+        });
+        // Filter whole job blocks (new job-based portfolio)
+        document.querySelectorAll('.job-block[data-cat]').forEach(jb => {
+          if (cat === 'all' || jb.dataset.cat === cat) jb.classList.remove('is-hidden');
+          else jb.classList.add('is-hidden');
         });
       });
     });
