@@ -577,7 +577,13 @@ p  { margin: 0 0 1em; }
   pointer-events: none;
   image-orientation: from-image;
 }
-.beforeafter > img.ba-after {
+/* AFTER is the base layer (always fully shown). BEFORE is the overlay
+   clipped from the left, so the LEFT side of the slider always shows the
+   "Before" image and the RIGHT side always shows the "After" image,
+   matching the labels regardless of source order. */
+.beforeafter > img.ba-after  { z-index: 1; }
+.beforeafter > img.ba-before {
+  z-index: 2;
   clip-path: inset(0 calc(100% - var(--pos)) 0 0);
 }
 /* Per-pair crop nudges — apply by adding data-fit="..." to the .beforeafter */
