@@ -469,7 +469,7 @@ p  { margin: 0 0 1em; }
   overflow: hidden;
   border-radius: var(--radius);
   user-select: none;
-  touch-action: pan-y;
+  touch-action: none;
   background: var(--charcoal-soft);
   box-shadow: var(--shadow-lg);
 }

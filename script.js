@@ -267,9 +267,9 @@
     });
   }
 
-  /* ── Before/After slider (clip-path edition) ───────────────── */
+  /* ── Before/After slider (clip-path + pointer events) ──────── */
   document.querySelectorAll('.beforeafter').forEach(el => {
-    let dragging = false;
+    let activePointer = null;
 
     function setPosFromX(x) {
       const rect = el.getBoundingClientRect();
@@ -278,16 +278,29 @@
       el.style.setProperty('--pos', pct + '%');
     }
 
-    // Click anywhere on the slider to jump there
-    el.addEventListener('mousedown',  e => { dragging = true; setPosFromX(e.clientX); });
-    document.addEventListener('mousemove', e => { if (dragging) setPosFromX(e.clientX); });
-    document.addEventListener('mouseup',   () => { dragging = false; });
+    el.addEventListener('pointerdown', e => {
+      activePointer = e.pointerId;
+      try { el.setPointerCapture(e.pointerId); } catch (_) {}
+      setPosFromX(e.clientX);
+      e.preventDefault();
+    });
+    el.addEventListener('pointermove', e => {
+      if (activePointer === e.pointerId) {
+        setPosFromX(e.clientX);
+        e.preventDefault();
+      }
+    });
+    function endPointer(e) {
+      if (activePointer === e.pointerId) {
+        try { el.releasePointerCapture(e.pointerId); } catch (_) {}
+        activePointer = null;
+      }
+    }
+    el.addEventListener('pointerup',     endPointer);
+    el.addEventListener('pointercancel', endPointer);
+    el.addEventListener('pointerleave',  endPointer);
 
-    el.addEventListener('touchstart', e => { dragging = true; setPosFromX(e.touches[0].clientX); }, { passive: true });
-    document.addEventListener('touchmove', e => { if (dragging) setPosFromX(e.touches[0].clientX); }, { passive: true });
-    document.addEventListener('touchend', () => { dragging = false; });
-
-    // Keyboard accessibility: focus + arrow keys
+    // Keyboard accessibility
     el.tabIndex = 0;
     el.addEventListener('keydown', e => {
       const cur = parseFloat(el.style.getPropertyValue('--pos')) || 50;
