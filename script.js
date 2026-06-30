@@ -35,6 +35,12 @@
       'svc.floor.p':    'Hardwood, luxury vinyl, tile, and carpet installation done with care for lasting results.',
       'svc.remodel.h':  'Full Home Remodels',
       'svc.remodel.p':  'Whole-home transformations managed start to finish by one trusted crew.',
+      'svc.paint.h':    'Interior & Exterior Painting',
+      'svc.paint.p':    'Prep, repair, and finish coats done with care — curb appeal outside and clean lines inside.',
+      'svc.siding.h':   'Siding, Framing & Rot Repair',
+      'svc.siding.p':   'Structural repairs, siding replacement, framing, and the dry-rot work the Pacific Northwest needs.',
+      'svc.carp.h':     'Cabinetry, Doors & Carpentry',
+      'svc.carp.p':     'Custom doors (yes, even hidden ones), cabinet refresh, trim, and the small finish work that makes a home.',
       'portfolio.eyebrow': 'Our Work',
       'portfolio.h2':   'Recent Projects',
       'portfolio.all':  'All Work',
@@ -96,6 +102,12 @@
       'svc.floor.p':    'Instalación de madera, vinilo de lujo, baldosas y alfombra con cuidado y durabilidad.',
       'svc.remodel.h':  'Remodelación Completa',
       'svc.remodel.p':  'Transformaciones de toda la casa gestionadas de principio a fin por un equipo de confianza.',
+      'svc.paint.h':    'Pintura Interior y Exterior',
+      'svc.paint.p':    'Preparación, reparación y acabado cuidadoso — atractivo exterior y líneas limpias en el interior.',
+      'svc.siding.h':   'Siding, Estructura y Reparación de Pudrición',
+      'svc.siding.p':   'Reparaciones estructurales, reemplazo de revestimiento, estructura y reparación de pudrición seca para el clima del Pacífico.',
+      'svc.carp.h':     'Gabinetes, Puertas y Carpintería',
+      'svc.carp.p':     'Puertas personalizadas (incluso ocultas), gabinetes, molduras y los detalles finos que hacen un hogar.',
       'portfolio.eyebrow': 'Nuestro Trabajo',
       'portfolio.h2':   'Proyectos Recientes',
       'portfolio.all':  'Todo',
@@ -255,29 +267,33 @@
     });
   }
 
-  /* ── Before/After slider ───────────────────────────────────── */
+  /* ── Before/After slider (clip-path edition) ───────────────── */
   document.querySelectorAll('.beforeafter').forEach(el => {
-    const after   = el.querySelector('.beforeafter__after-wrap');
-    const handle  = el.querySelector('.beforeafter__handle');
-    let dragging  = false;
+    let dragging = false;
 
-    function setPos(x) {
+    function setPosFromX(x) {
       const rect = el.getBoundingClientRect();
       let pct = ((x - rect.left) / rect.width) * 100;
-      pct = Math.max(5, Math.min(95, pct));
-      after.style.width  = pct + '%';
-      handle.style.left  = pct + '%';
+      pct = Math.max(2, Math.min(98, pct));
+      el.style.setProperty('--pos', pct + '%');
     }
 
-    handle.addEventListener('mousedown',  () => { dragging = true; });
-    document.addEventListener('mousemove', e => { if (dragging) setPos(e.clientX); });
+    // Click anywhere on the slider to jump there
+    el.addEventListener('mousedown',  e => { dragging = true; setPosFromX(e.clientX); });
+    document.addEventListener('mousemove', e => { if (dragging) setPosFromX(e.clientX); });
     document.addEventListener('mouseup',   () => { dragging = false; });
 
-    handle.addEventListener('touchstart', e => { dragging = true; e.preventDefault(); }, { passive: false });
-    document.addEventListener('touchmove', e => {
-      if (dragging) setPos(e.touches[0].clientX);
-    }, { passive: true });
+    el.addEventListener('touchstart', e => { dragging = true; setPosFromX(e.touches[0].clientX); }, { passive: true });
+    document.addEventListener('touchmove', e => { if (dragging) setPosFromX(e.touches[0].clientX); }, { passive: true });
     document.addEventListener('touchend', () => { dragging = false; });
+
+    // Keyboard accessibility: focus + arrow keys
+    el.tabIndex = 0;
+    el.addEventListener('keydown', e => {
+      const cur = parseFloat(el.style.getPropertyValue('--pos')) || 50;
+      if (e.key === 'ArrowLeft')  { el.style.setProperty('--pos', Math.max(2, cur - 4) + '%'); e.preventDefault(); }
+      if (e.key === 'ArrowRight') { el.style.setProperty('--pos', Math.min(98, cur + 4) + '%'); e.preventDefault(); }
+    });
   });
 
   /* ── Active nav link ───────────────────────────────────────── */
