@@ -28,7 +28,7 @@
   --radius-lg: 14px;
 
   /* Hero photo — change this single URL to swap the homepage hero. */
-  --hero-image: url('Project%20Images/2026/hero/kitchen-maple-marble.jpg');
+  --hero-image: url('Project%20Images/2026/hero/kitchen-maple-marble.webp');
 }
 
 /* Always respect EXIF orientation on raw images. Some browsers (older WebKit on
@@ -201,7 +201,7 @@ p  { margin: 0 0 1em; }
   border-radius: var(--radius-sm);
   overflow: hidden;
 }
-.lang-toggle button {
+.lang-toggle a {
   padding: .35rem .65rem;
   font-family: var(--font-display);
   font-size: .8rem;
@@ -209,7 +209,8 @@ p  { margin: 0 0 1em; }
   color: var(--steel);
   background: transparent;
 }
-.lang-toggle button[aria-pressed="true"] {
+.lang-toggle a:hover { color: var(--orange-dark); }
+.lang-toggle a[aria-current="true"] {
   background: var(--charcoal); color: var(--warm-white);
 }
 
@@ -713,7 +714,7 @@ p  { margin: 0 0 1em; }
   display: flex; flex-wrap: wrap; gap: .5rem;
   justify-content: center;
 }
-.area-pills span {
+.area-pills span, .area-pills a {
   padding: .55rem 1.1rem;
   background: #fff;
   border: 1.5px solid var(--border-strong);
@@ -722,6 +723,8 @@ p  { margin: 0 0 1em; }
   font-size: .85rem;
   letter-spacing: .06em;
 }
+.area-pills a { color: var(--charcoal); transition: border-color .2s, color .2s; }
+.area-pills a:hover { border-color: var(--orange); color: var(--orange-dark); }
 .area-note { text-align: center; color: var(--steel); margin-top: 1.25rem; }
 
 /* ---------- CTA banner ---------- */
@@ -943,3 +946,29 @@ p  { margin: 0 0 1em; }
 .mt-2 { margin-top: 2rem; }
 .no-decoration { text-decoration: none; }
 [hidden] { display: none !important; }
+
+/* ---------- Generated pages (services/, areas/, projects/, es/) ---------- */
+.breadcrumbs { font-size: .85rem; margin-bottom: 1rem; }
+.breadcrumbs ol { list-style: none; padding: 0; margin: 0; display: flex; flex-wrap: wrap; justify-content: center; gap: .35rem; }
+.breadcrumbs li { color: rgba(255,255,255,.6); }
+.breadcrumbs li + li::before { content: '/'; margin-right: .35rem; color: rgba(255,255,255,.35); }
+.breadcrumbs a { color: rgba(255,255,255,.8); }
+.breadcrumbs a:hover { color: var(--orange); }
+.prose { max-width: 760px; margin-inline: auto; }
+.prose p, .prose li { color: var(--steel); }
+.prose h2 { margin-top: 2.5rem; }
+.check-list { list-style: none; padding: 0; columns: 2 280px; column-gap: 2rem; }
+.check-list li { padding-left: 1.6rem; position: relative; margin-bottom: .6rem; break-inside: avoid; }
+.check-list li::before { content: '✓'; position: absolute; left: 0; color: var(--orange); font-weight: 700; }
+.split { display: grid; grid-template-columns: 1.1fr 1fr; gap: clamp(1.5rem, 4vw, 3rem); align-items: center; }
+.split__img { aspect-ratio: 4/3; border-radius: var(--radius); background: var(--charcoal-soft) center/cover no-repeat; }
+@media (max-width: 760px) { .split { grid-template-columns: 1fr; } }
+.steps { counter-reset: step; list-style: none; padding: 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(210px, 1fr)); gap: 1.25rem; }
+.steps li { counter-increment: step; background: #fff; border: 1px solid var(--border); border-radius: var(--radius); padding: 1.25rem 1.4rem; }
+.steps li::before { content: counter(step); display: inline-grid; place-items: center; width: 2rem; height: 2rem; border-radius: 50%; background: var(--charcoal); color: var(--orange); font-family: var(--font-display); font-weight: 700; margin-bottom: .6rem; }
+.steps strong { display: block; font-family: var(--font-display); font-size: 1.1rem; margin-bottom: .25rem; }
+.steps p { margin: 0; color: var(--steel); font-size: .95rem; }
+.project-meta { display: flex; flex-wrap: wrap; gap: .5rem 1.25rem; justify-content: center; color: rgba(255,255,255,.75); font-size: .95rem; margin-top: 1rem; }
+.project-meta a { color: var(--orange); }
+.job-block__link { display: inline-block; margin-top: .5rem; font-family: var(--font-display); text-transform: uppercase; letter-spacing: .08em; font-size: .82rem; font-weight: 600; }
+.service-block__more { margin-top: .75rem; font-family: var(--font-display); text-transform: uppercase; letter-spacing: .08em; font-size: .85rem; font-weight: 600; }
