@@ -14,7 +14,7 @@ with that site's webhook URL.
 
 - A Cloudflare account (free tier — Workers free plan = 100,000 requests/day)
 - The Discord webhook URL for the **#andrade-construction** channel:
-  `https://discord.com/api/webhooks/1504513037338546267/HRtODd6KrE343jfAMZWO3RyCKUVPlwNtlKyTRUMCvhtrSGda6Ah8rplWsLz1I1bHZbnq`
+  `https://discord.com/api/webhooks/<id>/<token>`
   *(Keep this URL secret — it goes into a Cloudflare encrypted secret, never into source code.)*
 - 10 minutes
 
@@ -45,7 +45,7 @@ the webhook in the source — anyone who reads the Worker could spam your channe
 2. **Add** → set:
    - **Variable type:** `Secret` *(critical — not "plain text")*
    - **Variable name:** `DISCORD_WEBHOOK`
-   - **Value:** `https://discord.com/api/webhooks/1504513037338546267/HRtODd6KrE343jfAMZWO3RyCKUVPlwNtlKyTRUMCvhtrSGda6Ah8rplWsLz1I1bHZbnq`
+   - **Value:** `https://discord.com/api/webhooks/<id>/<token>`
 3. **Save**
 
 ## 4. (Optional) Lock down CORS
