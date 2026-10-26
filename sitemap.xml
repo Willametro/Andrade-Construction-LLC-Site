@@ -1,28 +1,616 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://andrade.construction/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>1.0</priority>
-  </url>
-  <url>
-    <loc>https://andrade.construction/services.html</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://andrade.construction/portfolio.html</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://andrade.construction/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://andrade.construction/es/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://andrade.construction/"/>
   </url>
   <url>
     <loc>https://andrade.construction/about.html</loc>
-    <changefreq>yearly</changefreq>
-    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://andrade.construction/about.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://andrade.construction/es/nosotros.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://andrade.construction/about.html"/>
+  </url>
+  <url>
+    <loc>https://andrade.construction/areas/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://andrade.construction/areas/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://andrade.construction/es/areas/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://andrade.construction/areas/"/>
+  </url>
+  <url>
+    <loc>https://andrade.construction/areas/dallas.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://andrade.construction/areas/dallas.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://andrade.construction/es/areas/dallas.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://andrade.construction/areas/dallas.html"/>
+  </url>
+  <url>
+    <loc>https://andrade.construction/areas/independence.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://andrade.construction/areas/independence.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://andrade.construction/es/areas/independence.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://andrade.construction/areas/independence.html"/>
+  </url>
+  <url>
+    <loc>https://andrade.construction/areas/keizer.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://andrade.construction/areas/keizer.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://andrade.construction/es/areas/keizer.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://andrade.construction/areas/keizer.html"/>
+  </url>
+  <url>
+    <loc>https://andrade.construction/areas/monmouth.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://andrade.construction/areas/monmouth.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://andrade.construction/es/areas/monmouth.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://andrade.construction/areas/monmouth.html"/>
+  </url>
+  <url>
+    <loc>https://andrade.construction/areas/salem.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://andrade.construction/areas/salem.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://andrade.construction/es/areas/salem.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://andrade.construction/areas/salem.html"/>
+  </url>
+  <url>
+    <loc>https://andrade.construction/areas/silverton.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://andrade.construction/areas/silverton.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://andrade.construction/es/areas/silverton.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://andrade.construction/areas/silverton.html"/>
+  </url>
+  <url>
+    <loc>https://andrade.construction/areas/stayton.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://andrade.construction/areas/stayton.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://andrade.construction/es/areas/stayton.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://andrade.construction/areas/stayton.html"/>
+  </url>
+  <url>
+    <loc>https://andrade.construction/areas/woodburn.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://andrade.construction/areas/woodburn.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://andrade.construction/es/areas/woodburn.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://andrade.construction/areas/woodburn.html"/>
   </url>
   <url>
     <loc>https://andrade.construction/contact.html</loc>
-    <changefreq>yearly</changefreq>
-    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://andrade.construction/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://andrade.construction/es/contacto.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://andrade.construction/contact.html"/>
+  </url>
+  <url>
+    <loc>https://andrade.construction/portfolio.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://andrade.construction/portfolio.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://andrade.construction/es/portafolio.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://andrade.construction/portfolio.html"/>
+  </url>
+  <url>
+    <loc>https://andrade.construction/projects/basement-bathroom.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://andrade.construction/projects/basement-bathroom.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://andrade.construction/es/proyectos/basement-bathroom.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://andrade.construction/projects/basement-bathroom.html"/>
+  </url>
+  <url>
+    <loc>https://andrade.construction/projects/bath-curbless-shower.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://andrade.construction/projects/bath-curbless-shower.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://andrade.construction/es/proyectos/bath-curbless-shower.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://andrade.construction/projects/bath-curbless-shower.html"/>
+  </url>
+  <url>
+    <loc>https://andrade.construction/projects/bath-olympia.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://andrade.construction/projects/bath-olympia.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://andrade.construction/es/proyectos/bath-olympia.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://andrade.construction/projects/bath-olympia.html"/>
+  </url>
+  <url>
+    <loc>https://andrade.construction/projects/bath-remodel-classic.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://andrade.construction/projects/bath-remodel-classic.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://andrade.construction/es/proyectos/bath-remodel-classic.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://andrade.construction/projects/bath-remodel-classic.html"/>
+  </url>
+  <url>
+    <loc>https://andrade.construction/projects/bath-repair.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://andrade.construction/projects/bath-repair.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://andrade.construction/es/proyectos/bath-repair.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://andrade.construction/projects/bath-repair.html"/>
+  </url>
+  <url>
+    <loc>https://andrade.construction/projects/bath-upflow.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://andrade.construction/projects/bath-upflow.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://andrade.construction/es/proyectos/bath-upflow.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://andrade.construction/projects/bath-upflow.html"/>
+  </url>
+  <url>
+    <loc>https://andrade.construction/projects/cabinet-refresh.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://andrade.construction/projects/cabinet-refresh.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://andrade.construction/es/proyectos/cabinet-refresh.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://andrade.construction/projects/cabinet-refresh.html"/>
+  </url>
+  <url>
+    <loc>https://andrade.construction/projects/custom-hidden-doors.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://andrade.construction/projects/custom-hidden-doors.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://andrade.construction/es/proyectos/custom-hidden-doors.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://andrade.construction/projects/custom-hidden-doors.html"/>
+  </url>
+  <url>
+    <loc>https://andrade.construction/projects/drywall-repairs.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://andrade.construction/projects/drywall-repairs.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://andrade.construction/es/proyectos/drywall-repairs.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://andrade.construction/projects/drywall-repairs.html"/>
+  </url>
+  <url>
+    <loc>https://andrade.construction/projects/exterior-paint.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://andrade.construction/projects/exterior-paint.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://andrade.construction/es/proyectos/exterior-paint.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://andrade.construction/projects/exterior-paint.html"/>
+  </url>
+  <url>
+    <loc>https://andrade.construction/projects/exterior-repairs-paint.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://andrade.construction/projects/exterior-repairs-paint.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://andrade.construction/es/proyectos/exterior-repairs-paint.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://andrade.construction/projects/exterior-repairs-paint.html"/>
+  </url>
+  <url>
+    <loc>https://andrade.construction/projects/fourplex-jakes.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://andrade.construction/projects/fourplex-jakes.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://andrade.construction/es/proyectos/fourplex-jakes.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://andrade.construction/projects/fourplex-jakes.html"/>
+  </url>
+  <url>
+    <loc>https://andrade.construction/projects/framing-siding.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://andrade.construction/projects/framing-siding.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://andrade.construction/es/proyectos/framing-siding.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://andrade.construction/projects/framing-siding.html"/>
+  </url>
+  <url>
+    <loc>https://andrade.construction/projects/fullhome-remodel.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://andrade.construction/projects/fullhome-remodel.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://andrade.construction/es/proyectos/fullhome-remodel.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://andrade.construction/projects/fullhome-remodel.html"/>
+  </url>
+  <url>
+    <loc>https://andrade.construction/projects/interior-paint.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://andrade.construction/projects/interior-paint.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://andrade.construction/es/proyectos/interior-paint.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://andrade.construction/projects/interior-paint.html"/>
+  </url>
+  <url>
+    <loc>https://andrade.construction/projects/kitchen-4plex.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://andrade.construction/projects/kitchen-4plex.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://andrade.construction/es/proyectos/kitchen-4plex.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://andrade.construction/projects/kitchen-4plex.html"/>
+  </url>
+  <url>
+    <loc>https://andrade.construction/projects/kitchen-favorites.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://andrade.construction/projects/kitchen-favorites.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://andrade.construction/es/proyectos/kitchen-favorites.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://andrade.construction/projects/kitchen-favorites.html"/>
+  </url>
+  <url>
+    <loc>https://andrade.construction/projects/kitchen-keizer.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://andrade.construction/projects/kitchen-keizer.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://andrade.construction/es/proyectos/kitchen-keizer.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://andrade.construction/projects/kitchen-keizer.html"/>
+  </url>
+  <url>
+    <loc>https://andrade.construction/projects/kitchen-lighting-home.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://andrade.construction/projects/kitchen-lighting-home.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://andrade.construction/es/proyectos/kitchen-lighting-home.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://andrade.construction/projects/kitchen-lighting-home.html"/>
+  </url>
+  <url>
+    <loc>https://andrade.construction/projects/kitchen-new-doors-tile.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://andrade.construction/projects/kitchen-new-doors-tile.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://andrade.construction/es/proyectos/kitchen-new-doors-tile.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://andrade.construction/projects/kitchen-new-doors-tile.html"/>
+  </url>
+  <url>
+    <loc>https://andrade.construction/projects/kitchen-remodel-2.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://andrade.construction/projects/kitchen-remodel-2.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://andrade.construction/es/proyectos/kitchen-remodel-2.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://andrade.construction/projects/kitchen-remodel-2.html"/>
+  </url>
+  <url>
+    <loc>https://andrade.construction/projects/kitchen-remodel.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://andrade.construction/projects/kitchen-remodel.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://andrade.construction/es/proyectos/kitchen-remodel.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://andrade.construction/projects/kitchen-remodel.html"/>
+  </url>
+  <url>
+    <loc>https://andrade.construction/projects/kitchen-upstairs.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://andrade.construction/projects/kitchen-upstairs.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://andrade.construction/es/proyectos/kitchen-upstairs.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://andrade.construction/projects/kitchen-upstairs.html"/>
+  </url>
+  <url>
+    <loc>https://andrade.construction/projects/lvp-flooring.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://andrade.construction/projects/lvp-flooring.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://andrade.construction/es/proyectos/lvp-flooring.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://andrade.construction/projects/lvp-flooring.html"/>
+  </url>
+  <url>
+    <loc>https://andrade.construction/projects/shed-build.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://andrade.construction/projects/shed-build.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://andrade.construction/es/proyectos/shed-build.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://andrade.construction/projects/shed-build.html"/>
+  </url>
+  <url>
+    <loc>https://andrade.construction/projects/utility-attic.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://andrade.construction/projects/utility-attic.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://andrade.construction/es/proyectos/utility-attic.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://andrade.construction/projects/utility-attic.html"/>
+  </url>
+  <url>
+    <loc>https://andrade.construction/projects/windows-french-door.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://andrade.construction/projects/windows-french-door.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://andrade.construction/es/proyectos/windows-french-door.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://andrade.construction/projects/windows-french-door.html"/>
+  </url>
+  <url>
+    <loc>https://andrade.construction/services.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://andrade.construction/services.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://andrade.construction/es/servicios.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://andrade.construction/services.html"/>
+  </url>
+  <url>
+    <loc>https://andrade.construction/services/bathroom-remodeling.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://andrade.construction/services/bathroom-remodeling.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://andrade.construction/es/servicios/remodelacion-de-banos.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://andrade.construction/services/bathroom-remodeling.html"/>
+  </url>
+  <url>
+    <loc>https://andrade.construction/services/cabinetry-doors-carpentry.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://andrade.construction/services/cabinetry-doors-carpentry.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://andrade.construction/es/servicios/gabinetes-puertas-carpinteria.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://andrade.construction/services/cabinetry-doors-carpentry.html"/>
+  </url>
+  <url>
+    <loc>https://andrade.construction/services/decks-sheds-outdoor.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://andrade.construction/services/decks-sheds-outdoor.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://andrade.construction/es/servicios/terrazas-cobertizos-exteriores.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://andrade.construction/services/decks-sheds-outdoor.html"/>
+  </url>
+  <url>
+    <loc>https://andrade.construction/services/flooring.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://andrade.construction/services/flooring.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://andrade.construction/es/servicios/pisos.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://andrade.construction/services/flooring.html"/>
+  </url>
+  <url>
+    <loc>https://andrade.construction/services/home-additions.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://andrade.construction/services/home-additions.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://andrade.construction/es/servicios/ampliaciones-de-casas.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://andrade.construction/services/home-additions.html"/>
+  </url>
+  <url>
+    <loc>https://andrade.construction/services/kitchen-remodeling.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://andrade.construction/services/kitchen-remodeling.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://andrade.construction/es/servicios/remodelacion-de-cocinas.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://andrade.construction/services/kitchen-remodeling.html"/>
+  </url>
+  <url>
+    <loc>https://andrade.construction/services/painting.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://andrade.construction/services/painting.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://andrade.construction/es/servicios/pintura.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://andrade.construction/services/painting.html"/>
+  </url>
+  <url>
+    <loc>https://andrade.construction/services/siding-framing-rot-repair.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://andrade.construction/services/siding-framing-rot-repair.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://andrade.construction/es/servicios/revestimiento-estructura-madera-podrida.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://andrade.construction/services/siding-framing-rot-repair.html"/>
+  </url>
+  <url>
+    <loc>https://andrade.construction/services/water-damage-restoration.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://andrade.construction/services/water-damage-restoration.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://andrade.construction/es/servicios/restauracion-por-dano-de-agua.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://andrade.construction/services/water-damage-restoration.html"/>
+  </url>
+  <url>
+    <loc>https://andrade.construction/services/whole-home-remodeling.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://andrade.construction/services/whole-home-remodeling.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://andrade.construction/es/servicios/remodelacion-completa-de-casas.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://andrade.construction/services/whole-home-remodeling.html"/>
+  </url>
+  <url>
+    <loc>https://andrade.construction/es/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://andrade.construction/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://andrade.construction/es/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://andrade.construction/"/>
+  </url>
+  <url>
+    <loc>https://andrade.construction/es/areas/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://andrade.construction/areas/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://andrade.construction/es/areas/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://andrade.construction/areas/"/>
+  </url>
+  <url>
+    <loc>https://andrade.construction/es/areas/dallas.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://andrade.construction/areas/dallas.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://andrade.construction/es/areas/dallas.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://andrade.construction/areas/dallas.html"/>
+  </url>
+  <url>
+    <loc>https://andrade.construction/es/areas/independence.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://andrade.construction/areas/independence.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://andrade.construction/es/areas/independence.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://andrade.construction/areas/independence.html"/>
+  </url>
+  <url>
+    <loc>https://andrade.construction/es/areas/keizer.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://andrade.construction/areas/keizer.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://andrade.construction/es/areas/keizer.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://andrade.construction/areas/keizer.html"/>
+  </url>
+  <url>
+    <loc>https://andrade.construction/es/areas/monmouth.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://andrade.construction/areas/monmouth.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://andrade.construction/es/areas/monmouth.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://andrade.construction/areas/monmouth.html"/>
+  </url>
+  <url>
+    <loc>https://andrade.construction/es/areas/salem.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://andrade.construction/areas/salem.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://andrade.construction/es/areas/salem.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://andrade.construction/areas/salem.html"/>
+  </url>
+  <url>
+    <loc>https://andrade.construction/es/areas/silverton.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://andrade.construction/areas/silverton.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://andrade.construction/es/areas/silverton.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://andrade.construction/areas/silverton.html"/>
+  </url>
+  <url>
+    <loc>https://andrade.construction/es/areas/stayton.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://andrade.construction/areas/stayton.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://andrade.construction/es/areas/stayton.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://andrade.construction/areas/stayton.html"/>
+  </url>
+  <url>
+    <loc>https://andrade.construction/es/areas/woodburn.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://andrade.construction/areas/woodburn.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://andrade.construction/es/areas/woodburn.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://andrade.construction/areas/woodburn.html"/>
+  </url>
+  <url>
+    <loc>https://andrade.construction/es/contacto.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://andrade.construction/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://andrade.construction/es/contacto.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://andrade.construction/contact.html"/>
+  </url>
+  <url>
+    <loc>https://andrade.construction/es/nosotros.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://andrade.construction/about.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://andrade.construction/es/nosotros.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://andrade.construction/about.html"/>
+  </url>
+  <url>
+    <loc>https://andrade.construction/es/portafolio.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://andrade.construction/portfolio.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://andrade.construction/es/portafolio.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://andrade.construction/portfolio.html"/>
+  </url>
+  <url>
+    <loc>https://andrade.construction/es/proyectos/basement-bathroom.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://andrade.construction/projects/basement-bathroom.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://andrade.construction/es/proyectos/basement-bathroom.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://andrade.construction/projects/basement-bathroom.html"/>
+  </url>
+  <url>
+    <loc>https://andrade.construction/es/proyectos/bath-curbless-shower.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://andrade.construction/projects/bath-curbless-shower.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://andrade.construction/es/proyectos/bath-curbless-shower.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://andrade.construction/projects/bath-curbless-shower.html"/>
+  </url>
+  <url>
+    <loc>https://andrade.construction/es/proyectos/bath-olympia.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://andrade.construction/projects/bath-olympia.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://andrade.construction/es/proyectos/bath-olympia.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://andrade.construction/projects/bath-olympia.html"/>
+  </url>
+  <url>
+    <loc>https://andrade.construction/es/proyectos/bath-remodel-classic.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://andrade.construction/projects/bath-remodel-classic.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://andrade.construction/es/proyectos/bath-remodel-classic.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://andrade.construction/projects/bath-remodel-classic.html"/>
+  </url>
+  <url>
+    <loc>https://andrade.construction/es/proyectos/bath-repair.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://andrade.construction/projects/bath-repair.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://andrade.construction/es/proyectos/bath-repair.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://andrade.construction/projects/bath-repair.html"/>
+  </url>
+  <url>
+    <loc>https://andrade.construction/es/proyectos/bath-upflow.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://andrade.construction/projects/bath-upflow.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://andrade.construction/es/proyectos/bath-upflow.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://andrade.construction/projects/bath-upflow.html"/>
+  </url>
+  <url>
+    <loc>https://andrade.construction/es/proyectos/cabinet-refresh.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://andrade.construction/projects/cabinet-refresh.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://andrade.construction/es/proyectos/cabinet-refresh.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://andrade.construction/projects/cabinet-refresh.html"/>
+  </url>
+  <url>
+    <loc>https://andrade.construction/es/proyectos/custom-hidden-doors.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://andrade.construction/projects/custom-hidden-doors.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://andrade.construction/es/proyectos/custom-hidden-doors.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://andrade.construction/projects/custom-hidden-doors.html"/>
+  </url>
+  <url>
+    <loc>https://andrade.construction/es/proyectos/drywall-repairs.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://andrade.construction/projects/drywall-repairs.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://andrade.construction/es/proyectos/drywall-repairs.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://andrade.construction/projects/drywall-repairs.html"/>
+  </url>
+  <url>
+    <loc>https://andrade.construction/es/proyectos/exterior-paint.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://andrade.construction/projects/exterior-paint.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://andrade.construction/es/proyectos/exterior-paint.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://andrade.construction/projects/exterior-paint.html"/>
+  </url>
+  <url>
+    <loc>https://andrade.construction/es/proyectos/exterior-repairs-paint.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://andrade.construction/projects/exterior-repairs-paint.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://andrade.construction/es/proyectos/exterior-repairs-paint.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://andrade.construction/projects/exterior-repairs-paint.html"/>
+  </url>
+  <url>
+    <loc>https://andrade.construction/es/proyectos/fourplex-jakes.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://andrade.construction/projects/fourplex-jakes.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://andrade.construction/es/proyectos/fourplex-jakes.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://andrade.construction/projects/fourplex-jakes.html"/>
+  </url>
+  <url>
+    <loc>https://andrade.construction/es/proyectos/framing-siding.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://andrade.construction/projects/framing-siding.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://andrade.construction/es/proyectos/framing-siding.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://andrade.construction/projects/framing-siding.html"/>
+  </url>
+  <url>
+    <loc>https://andrade.construction/es/proyectos/fullhome-remodel.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://andrade.construction/projects/fullhome-remodel.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://andrade.construction/es/proyectos/fullhome-remodel.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://andrade.construction/projects/fullhome-remodel.html"/>
+  </url>
+  <url>
+    <loc>https://andrade.construction/es/proyectos/interior-paint.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://andrade.construction/projects/interior-paint.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://andrade.construction/es/proyectos/interior-paint.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://andrade.construction/projects/interior-paint.html"/>
+  </url>
+  <url>
+    <loc>https://andrade.construction/es/proyectos/kitchen-4plex.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://andrade.construction/projects/kitchen-4plex.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://andrade.construction/es/proyectos/kitchen-4plex.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://andrade.construction/projects/kitchen-4plex.html"/>
+  </url>
+  <url>
+    <loc>https://andrade.construction/es/proyectos/kitchen-favorites.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://andrade.construction/projects/kitchen-favorites.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://andrade.construction/es/proyectos/kitchen-favorites.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://andrade.construction/projects/kitchen-favorites.html"/>
+  </url>
+  <url>
+    <loc>https://andrade.construction/es/proyectos/kitchen-keizer.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://andrade.construction/projects/kitchen-keizer.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://andrade.construction/es/proyectos/kitchen-keizer.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://andrade.construction/projects/kitchen-keizer.html"/>
+  </url>
+  <url>
+    <loc>https://andrade.construction/es/proyectos/kitchen-lighting-home.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://andrade.construction/projects/kitchen-lighting-home.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://andrade.construction/es/proyectos/kitchen-lighting-home.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://andrade.construction/projects/kitchen-lighting-home.html"/>
+  </url>
+  <url>
+    <loc>https://andrade.construction/es/proyectos/kitchen-new-doors-tile.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://andrade.construction/projects/kitchen-new-doors-tile.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://andrade.construction/es/proyectos/kitchen-new-doors-tile.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://andrade.construction/projects/kitchen-new-doors-tile.html"/>
+  </url>
+  <url>
+    <loc>https://andrade.construction/es/proyectos/kitchen-remodel-2.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://andrade.construction/projects/kitchen-remodel-2.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://andrade.construction/es/proyectos/kitchen-remodel-2.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://andrade.construction/projects/kitchen-remodel-2.html"/>
+  </url>
+  <url>
+    <loc>https://andrade.construction/es/proyectos/kitchen-remodel.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://andrade.construction/projects/kitchen-remodel.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://andrade.construction/es/proyectos/kitchen-remodel.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://andrade.construction/projects/kitchen-remodel.html"/>
+  </url>
+  <url>
+    <loc>https://andrade.construction/es/proyectos/kitchen-upstairs.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://andrade.construction/projects/kitchen-upstairs.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://andrade.construction/es/proyectos/kitchen-upstairs.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://andrade.construction/projects/kitchen-upstairs.html"/>
+  </url>
+  <url>
+    <loc>https://andrade.construction/es/proyectos/lvp-flooring.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://andrade.construction/projects/lvp-flooring.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://andrade.construction/es/proyectos/lvp-flooring.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://andrade.construction/projects/lvp-flooring.html"/>
+  </url>
+  <url>
+    <loc>https://andrade.construction/es/proyectos/shed-build.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://andrade.construction/projects/shed-build.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://andrade.construction/es/proyectos/shed-build.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://andrade.construction/projects/shed-build.html"/>
+  </url>
+  <url>
+    <loc>https://andrade.construction/es/proyectos/utility-attic.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://andrade.construction/projects/utility-attic.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://andrade.construction/es/proyectos/utility-attic.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://andrade.construction/projects/utility-attic.html"/>
+  </url>
+  <url>
+    <loc>https://andrade.construction/es/proyectos/windows-french-door.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://andrade.construction/projects/windows-french-door.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://andrade.construction/es/proyectos/windows-french-door.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://andrade.construction/projects/windows-french-door.html"/>
+  </url>
+  <url>
+    <loc>https://andrade.construction/es/servicios.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://andrade.construction/services.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://andrade.construction/es/servicios.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://andrade.construction/services.html"/>
+  </url>
+  <url>
+    <loc>https://andrade.construction/es/servicios/ampliaciones-de-casas.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://andrade.construction/services/home-additions.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://andrade.construction/es/servicios/ampliaciones-de-casas.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://andrade.construction/services/home-additions.html"/>
+  </url>
+  <url>
+    <loc>https://andrade.construction/es/servicios/gabinetes-puertas-carpinteria.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://andrade.construction/services/cabinetry-doors-carpentry.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://andrade.construction/es/servicios/gabinetes-puertas-carpinteria.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://andrade.construction/services/cabinetry-doors-carpentry.html"/>
+  </url>
+  <url>
+    <loc>https://andrade.construction/es/servicios/pintura.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://andrade.construction/services/painting.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://andrade.construction/es/servicios/pintura.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://andrade.construction/services/painting.html"/>
+  </url>
+  <url>
+    <loc>https://andrade.construction/es/servicios/pisos.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://andrade.construction/services/flooring.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://andrade.construction/es/servicios/pisos.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://andrade.construction/services/flooring.html"/>
+  </url>
+  <url>
+    <loc>https://andrade.construction/es/servicios/remodelacion-completa-de-casas.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://andrade.construction/services/whole-home-remodeling.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://andrade.construction/es/servicios/remodelacion-completa-de-casas.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://andrade.construction/services/whole-home-remodeling.html"/>
+  </url>
+  <url>
+    <loc>https://andrade.construction/es/servicios/remodelacion-de-banos.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://andrade.construction/services/bathroom-remodeling.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://andrade.construction/es/servicios/remodelacion-de-banos.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://andrade.construction/services/bathroom-remodeling.html"/>
+  </url>
+  <url>
+    <loc>https://andrade.construction/es/servicios/remodelacion-de-cocinas.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://andrade.construction/services/kitchen-remodeling.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://andrade.construction/es/servicios/remodelacion-de-cocinas.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://andrade.construction/services/kitchen-remodeling.html"/>
+  </url>
+  <url>
+    <loc>https://andrade.construction/es/servicios/restauracion-por-dano-de-agua.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://andrade.construction/services/water-damage-restoration.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://andrade.construction/es/servicios/restauracion-por-dano-de-agua.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://andrade.construction/services/water-damage-restoration.html"/>
+  </url>
+  <url>
+    <loc>https://andrade.construction/es/servicios/revestimiento-estructura-madera-podrida.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://andrade.construction/services/siding-framing-rot-repair.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://andrade.construction/es/servicios/revestimiento-estructura-madera-podrida.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://andrade.construction/services/siding-framing-rot-repair.html"/>
+  </url>
+  <url>
+    <loc>https://andrade.construction/es/servicios/terrazas-cobertizos-exteriores.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://andrade.construction/services/decks-sheds-outdoor.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://andrade.construction/es/servicios/terrazas-cobertizos-exteriores.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://andrade.construction/services/decks-sheds-outdoor.html"/>
   </url>
 </urlset>
