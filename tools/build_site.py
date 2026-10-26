@@ -18,6 +18,7 @@ links to the new pages. Everything else in those files stays hand-edited.
 Content lives in tools/site_data.py. Standard library only.
 """
 import argparse
+import hashlib
 import html
 import json
 import re
@@ -30,6 +31,17 @@ from site_data import SITE, BUSINESS, SERVICES, CITIES, PROJECTS, CATEGORIES  # 
 
 ROOT = Path(__file__).resolve().parent.parent
 B = BUSINESS
+
+# Pages load style.css / script.js / tracker.js as "?v=<hash of their contents>",
+# so browsers and Cloudflare fetch the new files the moment they change instead
+# of pairing new HTML with a cached old stylesheet.
+ASSETS = ('style.css', 'script.js', 'tracker.js')
+ASSET_V = hashlib.sha1(b''.join((ROOT / f).read_bytes() for f in ASSETS)).hexdigest()[:8]
+ASSET_RE = re.compile(r'((?:href|src)="(?:/|\.\./)?(?:' + '|'.join(re.escape(f) for f in ASSETS) + r'))(?:\?v=[0-9a-f]*)?"')
+
+
+def versioned(src):
+    return ASSET_RE.sub(lambda m: f'{m.group(1)}?v={ASSET_V}"', src)
 
 
 def t(s):
@@ -1274,6 +1286,7 @@ TOGGLE_RE = re.compile(r'<div class="lang-toggle"[^>]*>.*?</div>', re.S)
 
 
 def patch_common(src, page, prefix):
+    src = versioned(src)
     src = TOGGLE_RE.sub(lambda m: lang_toggle(page), src, count=1)
     # service anchors -> dedicated pages
     for s in SERVICES:
@@ -1367,7 +1380,7 @@ def build():
         gen += [city_page(c, lang) for c in CITIES]
         gen += [project_page(j, lang) for j in PROJECTS]
     for p in gen:
-        out[file_for(p['url'])] = render(p)
+        out[file_for(p['url'])] = versioned(render(p))
         pages.append(p)
     out['sitemap.xml'] = sitemap(pages)
     return out

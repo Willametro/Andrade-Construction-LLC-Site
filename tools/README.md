@@ -16,4 +16,6 @@ scripts are run by hand and their output is committed.
 - **Add photos:** drop the JPEGs in, run `optimize_images.py`, and reference the `.webp` files.
 - **Add a project write-up:** add its portfolio job id to `PROJECTS` in `site_data.py` (English and Spanish text), then rebuild.
 
+Pages load `style.css`, `script.js` and `tracker.js` with a `?v=` hash of their contents, so visitors never get new HTML with an old cached stylesheet. **After editing any of those three files, run `build_site.py`** to bump the hash on every page.
+
 Before pushing: `python3 tools/build_site.py --check && python3 tools/check_site.py`.
